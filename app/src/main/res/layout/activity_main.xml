@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="356dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="21dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/baseline_view_headline_24" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/su" />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="Recommended"
+        android:layout_marginLeft="-333dp"
+        android:layout_marginTop="73dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="327dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="-155dp"
+        android:layout_marginTop="84dp"
+        app:srcCompat="@drawable/vvi" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/baseline_more_horiz_24"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="-140sp"
+        />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:text="Featured"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="-179dp"/>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="309dp"
+        android:layout_marginLeft="-106dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="-22dp"
+            android:src="@drawable/vciu" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-22dp"
+            android:src="@drawable/vciu" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="-22dp"
+            android:src="@drawable/vciu"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-335dp"
+        android:layout_marginTop="442dp"
+        android:text="Categories"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="490dp"
+        android:background="#D14273"
+        android:layout_marginLeft="-111dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:gravity="center"
+            android:text="AUTOMOTIVE"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="490dp"
+        android:background="#2196F3"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TECHOLOGY"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="551dp"
+        android:background="#3F51B5"
+        android:layout_marginLeft="-340dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SPORT"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="551dp"
+        android:background="#FFC107"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FASHION"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="613dp"
+        android:background="#8BC34A"
+        android:layout_marginLeft="-340dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BUSINESS"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="613dp"
+        android:background="#353D6A"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="POLITICS"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:src="@drawable/nms"
+        android:layout_marginLeft="-370dp"
+        android:layout_marginTop="699dp"/>
+
+
+
+
+</LinearLayout>
